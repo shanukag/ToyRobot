@@ -1,0 +1,7 @@
+BUILD INSTRUCTIONS
+- Open the solution using Visual Studio and run ToyRobot project to execute the program
+  - To execute unit tests, run the ToyRobotUnitTests project
+
+
+RUN INSTRUCTION
+- To run the program instead of building, execute ToyRobot.exe in the release folder provided in the same folder as this instruction file.

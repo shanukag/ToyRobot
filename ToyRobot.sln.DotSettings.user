@@ -1,0 +1,23 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=541c15f3_002Dbc6a_002D42d8_002Db87f_002D4b0eeac35f07/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestRobotMoveCommand(&amp;quot;mova &amp;quot;,True)" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::41A84CAA-6819-49B7-B0C6-4DC6DE39AFCD::net6.0::ToyRobotUnitTests.Tests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8257836c_002D4fcd_002D4639_002D8403_002D00422ebbb460/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestGame #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::41A84CAA-6819-49B7-B0C6-4DC6DE39AFCD::net6.0::ToyRobotUnitTests.Tests.TestGame&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::41A84CAA-6819-49B7-B0C6-4DC6DE39AFCD::net6.0::ToyRobotUnitTests.Tests.TestRobotPlaceInstruction&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::41A84CAA-6819-49B7-B0C6-4DC6DE39AFCD::net6.0::ToyRobotUnitTests.Tests.TestRobotMoveCommand&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=872b4444_002D11d3_002D47cf_002Da88b_002Db20d9450a17b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestGame" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::41A84CAA-6819-49B7-B0C6-4DC6DE39AFCD::net6.0::ToyRobotUnitTests.Tests.TestGame&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d0d0416c_002D46e8_002D44f3_002D889c_002D5ec2874636f5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestGame #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::41A84CAA-6819-49B7-B0C6-4DC6DE39AFCD::net6.0::ToyRobotUnitTests.Tests.TestGame&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
