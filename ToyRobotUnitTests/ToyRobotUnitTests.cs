@@ -15,6 +15,13 @@ public class Tests
         ToyRobotGame = new ToyRobotGame();
     }
 
+    /// <summary>
+    /// Tests the game from end to end. Providing a place command, move, report and asserting the final location of the robot
+    /// </summary>
+    /// <param name="robotPlaceCommand"></param>
+    /// <param name="robotMoveCommand"></param>
+    /// <param name="reportCommand"></param>
+    /// <param name="robotPosition"></param>
     [Test]
     [TestCase( "Place 0,0,North", "move", "report", "0,1,North")]
     [TestCase( "Place 0,0,North",  "left", "report", "0,0,West")]
@@ -27,6 +34,15 @@ public class Tests
         Assert.That(processingResult.Message, Is.EqualTo(robotPosition));
     }
 
+    /// <summary>
+    /// Tests the input validation of the place command
+    /// </summary>
+    /// <param name="input"></param>
+    /// <param name="gameStatus"></param>
+    /// <param name="x"></param>
+    /// <param name="y"></param>
+    /// <param name="bearingType"></param>
+    /// <param name="inputProcessingError"></param>
     [Test]
     [TestCase("Place 1,2,East", GameStatus.GameInitialized, 1, 2, BearingType.East, false)]
     [TestCase("place 1,2,east", GameStatus.GameInitialized, 1, 2, BearingType.East, false)]
@@ -54,6 +70,11 @@ public class Tests
         }
     }
     
+    /// <summary>
+    /// Tests the input validation of move command
+    /// </summary>
+    /// <param name="input"></param>
+    /// <param name="inputProcessingError"></param>
     [Test]
     [TestCase("move", false)]
     [TestCase("move ", false)]
@@ -78,6 +99,13 @@ public class Tests
         }
     }
     
+    /// <summary>
+    /// Tests the input validation of the left/right commands
+    /// </summary>
+    /// <param name="input"></param>
+    /// <param name="expectedCommand"></param>
+    /// <param name="expectedDirection"></param>
+    /// <param name="inputProcessingError"></param>
     [Test]
     [TestCase("left", Command.Rotate, Direction.Left, false)]
     [TestCase("right", Command.Rotate, Direction.Right, false)]
@@ -104,6 +132,11 @@ public class Tests
         }
     }
     
+    /// <summary>
+    /// Tests the input validation of the report command
+    /// </summary>
+    /// <param name="input"></param>
+    /// <param name="inputProcessingError"></param>
     [Test]
     [TestCase("report", false)]
     [TestCase("report ", false)]
