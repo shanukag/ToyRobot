@@ -1,0 +1,31 @@
+{
+  "@context": "https://w3id.org/openbadges/v2",
+  "id": "https://badges-staging.typsy.com/assertion/f6d0959d5c524f978bf8f4e110d2d1f3",
+  "ContentId": 32,
+  "ContentType": 0,
+  "type": "Assertion",
+  "recipient": {
+    "type": "email",
+    "salt": "typsy",
+    "hashed": true,
+    "identity": "sha256$4747375b38d45a714a6bb33771bd205898724a57ab3dac1eb99a8dff18334743"
+  },
+  "badge": "https://badges-staging.typsy.com/badge/b4cdc0fa72dc4da1badfff965ba2b127",
+  "verification": {
+    "type": "hosted"
+  },
+  "issuedOn": "2025-07-07T03:30:18Z",
+  "image": {
+    "id": "https://badges-staging.typsy.com/assertion/image/f6d0959d5c524f978bf8f4e110d2d1f3"
+  },
+  "evidence": [
+    {
+      "id": "https://badges-staging.typsy.com/assertion/f6d0959d5c524f978bf8f4e110d2d1f3",
+      "narrative": "A quiz was passed."
+    }
+  ],
+  "expires": "2028-07-07T03:30:18Z",
+  "revoked": false,
+  "ItemIdentifier": "50d7ea5476d44511b74b336e1ef5834e",
+  "Identifier": "f6d0959d5c524f978bf8f4e110d2d1f3"
+}
