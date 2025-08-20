@@ -12,7 +12,7 @@
   },
   "badge": "https://badges-staging.typsy.com/badge/b4cdc0fa72dc4da1badfff965ba2b127",
   "verification": {
-    "type": "HostedBadge"
+    "type": "hosted"
   },
   "issuedOn": "2025-07-07T03:30:18Z",
   "image": {
@@ -36,4 +36,5 @@
   },
   "ItemIdentifier": "50d7ea5476d44511b74b336e1ef5834e",
   "Identifier": "f6d0959d5c524f978bf8f4e110d2d1f3"
+
 }
