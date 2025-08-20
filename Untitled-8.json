@@ -26,14 +26,7 @@
   ],
   "expires": "2028-07-07T03:30:18Z",
   "revoked": false,
-  "extensionsrecipientProfile": {
-    "@context": "https://openbadgespec.org/extensions/recipientProfile/context.json",
-    "type": [
-      "Extension",
-      "extensions:RecipientProfile"
-    ],
-    "name": "Shanuka Gomes"
-  },
   "ItemIdentifier": "50d7ea5476d44511b74b336e1ef5834e",
   "Identifier": "f6d0959d5c524f978bf8f4e110d2d1f3"
+
 }
